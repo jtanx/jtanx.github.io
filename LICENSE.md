@@ -1,4 +1,6 @@
-# Released under MIT License
+# License of the theme used as follows:
+
+## Released under MIT License
 
 Copyright (c) 2013 Mark Otto.
 
