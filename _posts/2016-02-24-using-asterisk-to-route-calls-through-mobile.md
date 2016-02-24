@@ -9,6 +9,8 @@ Mobile data is a strange thing in Australia. After taking advantage of an Optus 
 
 After some thought, the above diagram is how the system works. As I was already routing home phone calls through an [ATA](https://en.wikipedia.org/wiki/Analog_telephone_adapter) to use VoIP, I only needed to add my own SIP server that somehow routed my calls through my mobile. Having a Windows Phone, writing an app to do this is impossible, given that the API is simply not there to perform remote calls. However, like many other smartphones, it *does* support making and receiving calls through a Bluetooth connection - and this is how, along with an Asterisk instance running the `chan_mobile` module, this setup is possible. The only reason I'm using the Raspberry Pi to do this was because I had one laying around that wasn't doing much of anything, and this seemed like the perfect opportunity to use it.
 
+{:toc}
+
 ## Getting Asterisk
 For the Raspberry Pi, [RasPBX](http://www.raspberry-asterisk.org/) seems to be the way to go.
 
