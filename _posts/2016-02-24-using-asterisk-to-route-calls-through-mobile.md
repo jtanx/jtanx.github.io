@@ -9,7 +9,15 @@ Mobile data is a strange thing in Australia. After taking advantage of an Optus 
 
 After some thought, the above diagram is how the system works. As I was already routing home phone calls through an [ATA](https://en.wikipedia.org/wiki/Analog_telephone_adapter) to use VoIP, I only needed to add my own SIP server that somehow routed my calls through my mobile. Having a Windows Phone, writing an app to do this is impossible, given that the API is simply not there to perform remote calls. However, like many other smartphones, it *does* support making and receiving calls through a Bluetooth connection - and this is how, along with an Asterisk instance running the `chan_mobile` module, this setup is possible. The only reason I'm using the Raspberry Pi to do this was because I had one laying around that wasn't doing much of anything, and this seemed like the perfect opportunity to use it.
 
+<!--more-->
+
+# Contents
+{:.no_toc}
+
+* TOC
 {:toc}
+
+-----
 
 ## Getting Asterisk
 For the Raspberry Pi, [RasPBX](http://www.raspberry-asterisk.org/) seems to be the way to go.
@@ -144,7 +152,7 @@ The following steps help setup and customise RasPBX to suit your situation. Esse
    And follow the prompts to pair the phone. Once done, you can type `quit` to exit the Bluetooth console.
 4. The next step is to enable `chan_mobile` support to Asterisk. Under `/etc/asterisk`, create a file called `chan_mobile.conf`. You can base the contents on this [sample file](http://doxygen.asterisk.org/trunk/chan_mobile.conf.html). My configuration goes along the lines of:
 
-   ```bash
+   ```ini
    [general]
    interval=30             ; Number of seconds between trying to connect to devices.
   
@@ -197,10 +205,10 @@ The following steps help setup and customise RasPBX to suit your situation. Esse
    WP530           0A:E2:10:C3:75:30 1     blue            Yes       Free       No
    ```
   
-# Configuring call routing
+## Configuring call routing
 We now need to setup Asterisk to create a SIP server and to also route calls made through this server to the mobile phone. To setup the SIP server, append the following to `/etc/asterisk/sip.conf`:
 
-```bash
+```ini
 [test]
 type=friend
 host=dynamic
@@ -228,14 +236,14 @@ exten => s,n,Dial(SIP/test)
 
 This should route all numbers made to the SIP server through to your mobile phone. It **should** also route any calls made to the phone back to the SIP connected device, although I've had less luck on this side.
 
-Once the configuration is done, restart Asterisk as before. That's it! We're done! After adding this SIP server configuration to my ATA, I can now make home phone calls that get pushed through my mobile phone. :)
+Once the configuration is done, restart Asterisk as before. That's it! We're done! After adding this SIP server configuration to my ATA, I can now make home phone calls that get pushed through my mobile phone. :smile:
 
-# Adding SIP auto fallback
+## Adding SIP auto fallback
 As it turns out, I wanted to slightly extend this a bit. Since I may not always have my phone present to make calls, I'd like it to auto-fallback to use the SIP providers that I'm already using. My ATA is not quite smart enough to do this itself, since it will just appear like the line is busy if Asterisk fails to connect the call. So instead, I've added my SIP providers directly to Asterisk:
 
 1. For each provider, append to `/etc/asterisk/sip.conf`:
 
-   ```bash
+   ```ini
    [telecube-out]
    type=peer
    secret=XXXXXXXXX

@@ -2,3 +2,8 @@ pre.highlight {
     white-space: pre !important;
     overflow-x: auto;
 }
+
+img.emoji {
+    display: inline;
+    margin: 0;
+}

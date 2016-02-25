@@ -21,8 +21,9 @@ author:
   name:           'Jeremy Tan'
   url:            https://github.com/jtanx
 
-gems:             [jekyll-paginate,jekyll-gist]
+gems:             [jekyll-paginate,jekyll-gist,jemoji]
 paginate:         5
+excerpt_separator: <!--more-->
 
 # Custom vars
 version:          2.1.0

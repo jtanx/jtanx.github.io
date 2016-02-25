@@ -8,7 +8,7 @@
     {% include sidebar.html %}
 
     <div class="content container">
-      {{ content }}
+      {{ content | replace: site.excerpt_separator, '<a class="anchor" id="read-more"></a>' }}
     </div>
 
   </body>
