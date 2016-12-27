@@ -1,9 +1,46 @@
-pre.highlight {
-    white-space: pre !important;
-    overflow-x: auto;
-}
-
 img.emoji {
     display: inline;
     margin: 0;
 }
+
+img {
+    margin: 0 auto 1rem !important;
+    border-radius: 0 !important;
+}
+
+pre.highlight, td.code pre {
+    white-space: pre;
+    overflow-x: auto;
+}
+
+.highlighter-rouge td.gl {
+    padding: 0;
+    width: 1%;
+    white-space: nowrap;
+}
+
+.highlight-numbered {
+    overflow-x: auto;
+}
+
+.highlight-numbered pre {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.highlight-numbered table {
+    margin: 0 !important;
+}
+
+pre.lineno {
+    min-width: 2em;
+    word-break: keep-all;
+    padding: 0 0.4em;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
