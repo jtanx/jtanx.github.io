@@ -3,6 +3,6 @@ layout: page
 title: About
 ---
 
-There's not too much to say.
+Hello.
 
 Jeremy Tan [@jtanx](https://github.com/jtanx)
