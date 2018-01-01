@@ -15,9 +15,9 @@ While there are options for running SSHFS natively on Windows, I've often found 
 Note that the use cases for this method is limited. It's almost always better to try out a different solution. For example, if the server supports SMB file sharing *and* SSH access, but SMB file sharing is firewalled, it is possible to use SSH port forwarding (and a loopback adapter) to overcome that. See [here](https://www.simonholywell.com/post/2009/04/samba-file-share-over-ssh-tunnel/) for more info. 
 
 #### Native SSHFS on Windows
-Direct SSHFS mounting under Windows is possible through [Dokany](https://github.com/dokan-dev/dokany) (usermode filesystem driver) and [Dokan SSHFS](https://github.com/dokan-dev/dokan-sshfs). I've personally found this to be unreliable. Granted, I used this before the Dokany fork, so the situation may have improved since. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) may also support this, [some time in the future](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/suggestions/13522845-add-fuse-filesystem-in-userspace-support-in-wsl).
+Direct SSHFS mounting under Windows is possible through [Dokany](https://github.com/dokan-dev/dokany) (user-mode filesystem driver) and [Dokan SSHFS](https://github.com/dokan-dev/dokan-sshfs). I've personally found this to be unreliable. Granted, I used this before the Dokany fork, so the situation may have improved since. [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) may also support this, [some time in the future](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/suggestions/13522845-add-fuse-filesystem-in-userspace-support-in-wsl).
 
-## Prequisites
+## Prerequisites
 For this method, you'll need a virtual machine running Linux with SAMBA installed. I'll be using VirtualBox with Ubuntu 16.04 as my base. I've also configured a host-only adapter that allows access to the VM's SMB file shares from the host machine:
 
 ![vbox-network]({{ "/" | relative_url }}public/img/2017-10-16-vbox-network.png)
