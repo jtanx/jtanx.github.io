@@ -1,6 +1,6 @@
 img.emoji {
     display: inline;
-    margin: 0;
+    margin: 0 !important;
 }
 
 img {
