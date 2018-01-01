@@ -39,3 +39,6 @@ version:          2.1.0
 
 # WTF M8 https://github.com/jekyll/jekyll/issues/4705
 repository:       jtanx/jtanx.github.io
+
+# lol
+future: true
