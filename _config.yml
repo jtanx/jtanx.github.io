@@ -30,12 +30,12 @@ author:
   name:           'Jeremy Tan'
   url:            https://github.com/jtanx
 
-gems:             [jekyll-paginate,jekyll-gist,jemoji]
+plugins:          [jekyll-paginate,jekyll-gist,jemoji]
 paginate:         5
 excerpt_separator: <!--more-->
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/jtanx/jtanx.github.io
+# WTF M8 https://github.com/jekyll/jekyll/issues/4705
+repository:       jtanx/jtanx.github.io

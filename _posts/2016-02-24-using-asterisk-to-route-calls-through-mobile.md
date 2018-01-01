@@ -100,7 +100,7 @@ The following steps help setup and customise RasPBX to suit your situation. Esse
    ```bash
    update-rc.d freepbx remove
    update-rc.d apache2 remove
-   wget http://repo.raspbx.org/download/asterisk -o /etc/init.d/asterisk
+   wget http://repo.raspbx.org/download/asterisk -O /etc/init.d/asterisk
    chmod +x /etc/init.d/asterisk
    update-rc.d asterisk defaults
    reboot

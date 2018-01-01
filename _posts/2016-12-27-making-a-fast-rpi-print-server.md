@@ -7,7 +7,7 @@ One of the things you begin to truly appreciate is the convenience of a networke
 
 ![cups-rpi]({{ site.baseurl }}public/img/2016-12-27-cups-rpi.png)
 
-With a spare Raspberry Pi laying around yet again, it was time to fix that. The end result was a fast, AirPlay compatible, on-demand print server, with Windows clients connecting using LPR and *nix clients via IPP.
+With a spare Raspberry Pi lying around yet again, it was time to fix that. The end result was a fast, AirPlay compatible, on-demand print server, with Windows clients connecting using LPR and *nix clients via IPP.
 
 <!--more-->
 

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg62"
+   version="1.1"
+   height="72px"
+   width="326px">
+  <metadata
+     id="metadata66">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2" />
+  <g
+     id="g60"
+     transform="translate(0.5,0.5)">
+    <path
+       id="path4"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-width="1.95"
+       stroke="#6881b3"
+       fill="#cccccc"
+       d="M 313.45 56 C 320.2 55.15 325.01 48.69 324.2 41.57 C 323.39 34.45 317.26 29.38 310.52 30.23 C 310.44 19.6 303.38 10.46 293.52 8.23 C 283.67 6 273.67 11.29 269.48 20.96 C 266.36 17.2 261.42 15.79 256.94 17.36 C 252.46 18.94 249.31 23.2 248.95 28.17 C 241.67 27.89 235.54 33.89 235.27 41.57 C 235 49.25 240.69 55.72 247.98 56 Z" />
+    <g
+       style="fill:#6881b3;fill-opacity:1"
+       id="g10"
+       transform="translate(255.54426,17.232063)">
+      <text
+         x="24"
+         y="23"
+         font-size="14px"
+         font-weight="bold"
+         id="text6"
+         style="font-weight:bold;font-size:14px;font-family:Helvetica;text-anchor:middle;fill:#6881b3;fill-opacity:1">
+        <tspan
+           id="tspan4642"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica">Server</tspan>
+      </text>
+    </g>
+    <rect
+       id="rect12"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="#cccccc"
+       ry="2"
+       rx="2"
+       height="60"
+       width="30"
+       y="1"
+       x="1" />
+    <path
+       id="path14"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-linejoin="round"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="none"
+       d="M 1 11 L 31 11 M 1 31 L 31 31" />
+    <rect
+       id="rect16"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="#cccccc"
+       height="45"
+       width="80"
+       y="6"
+       x="21" />
+    <rect
+       id="rect18"
+       pointer-events="none"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="#cccccc"
+       height="10"
+       width="20"
+       y="51"
+       x="51" />
+    <path
+       id="path20"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-linejoin="round"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="#cccccc"
+       d="M 36 60 L 86 60 L 96 71 L 26 71 Z" />
+    <path
+       id="path22"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke-linejoin="round"
+       stroke-width="2"
+       stroke="#6881b3"
+       fill="none"
+       d="M 50 68.5 L 68 68.5 M 37 65.5 L 76 65.5 M 39 62.5 L 75 62.5 M 78 62.5 L 85 62.5 M 80 65.5 L 87 65.5 M 82 68.5 L 89 68.5" />
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       id="rect24"
+       pointer-events="none"
+       height="39"
+       width="73"
+       y="9"
+       x="24" />
+    <ellipse
+       id="ellipse26"
+       pointer-events="none"
+       stroke="none"
+       fill="#ffffff"
+       ry="2"
+       rx="2"
+       cy="36"
+       cx="6" />
+    <path
+       id="path28"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="none"
+       d="M 46.13 31.43 L 25.55 31.79" />
+    <path
+       id="path30"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="#6881b3"
+       d="M 49.88 31.37 L 44.93 33.95 L 46.13 31.43 L 44.84 28.95 Z" />
+    <path
+       id="path32"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="#6881b3"
+       d="M 22.55 31.84 L 26.51 29.77 L 25.55 31.79 L 26.58 33.77 Z" />
+    <g
+       style="fill:#6881b3;fill-opacity:1"
+       id="g38"
+       transform="matrix(0.75338418,0,0,0.75338418,30.464919,25.608447)">
+      <switch
+         style="fill:#6881b3;fill-opacity:1"
+         id="switch36">
+        <foreignObject
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="6"
+           width="15"
+           pointer-events="all"
+           style="overflow:visible;">
+          <xhtml:div
+             style="display: inline-block; font-size: 7px; font-family: Helvetica; color: rgb(72, 90, 125); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">SMB</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           style="font-size:7px;font-family:Helvetica;text-anchor:middle;fill:#6881b3;fill-opacity:1"
+           id="text34"
+           font-size="7px"
+           y="7"
+           x="8">SMB</text>
+      </switch>
+    </g>
+    <path
+       id="path40"
+       pointer-events="none"
+       stroke="none"
+       fill="#6881b3"
+       d="M 88.98 16 C 89.52 16 90.03 16.18 90.41 16.49 C 90.79 16.81 91 17.24 91 17.69 L 91 38.25 C 91 38.69 90.79 39.12 90.41 39.44 C 90.03 39.76 89.52 39.93 88.98 39.93 L 75.85 39.76 L 75.85 44.15 L 80.9 44.15 L 80.9 45.16 L 83.32 45.16 L 83.32 46 L 58.68 46 L 58.68 45.16 L 61.1 45.16 L 61.1 44.15 L 66.15 44.15 L 66.15 39.76 L 53.02 39.76 C 51.98 39.77 51.11 39.11 51 38.25 L 51 17.69 C 51 16.82 51.79 16.09 52.82 16 Z Z M 88.58 17.85 L 53.43 17.85 L 53.43 37.91 L 88.58 37.91 Z M 71.61 21.9 L 78.27 24.76 L 71.81 27.8 L 65.14 24.76 Z M 72.42 28.98 L 78.48 25.94 L 78.48 31.84 L 72.42 34.88 Z M 70.85 28.81 L 70.85 34.92 L 64.89 31.84 L 64.99 25.94 Z" />
+    <g
+       style="fill:#6881b3;fill-opacity:1"
+       id="g46"
+       transform="translate(80.5,18.5)">
+      <switch
+         style="fill:#6881b3;fill-opacity:1"
+         id="switch44">
+        <foreignObject
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+           height="3"
+           width="6"
+           pointer-events="all"
+           style="overflow:visible;">
+          <xhtml:div
+             style="display: inline-block; font-size: 4px; font-family: Helvetica; color: rgb(72, 90, 125); line-height: 1.2; vertical-align: top; white-space: nowrap; font-weight: bold;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">VM</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           style="fill:#6881b3;fill-opacity:1"
+           id="text42"
+           font-weight="bold"
+           font-family="Helvetica"
+           font-size="4px"
+           text-anchor="middle"
+           fill="#485A7D"
+           y="4"
+           x="3">VM</text>
+      </switch>
+    </g>
+    <path
+       id="path48"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="none"
+       d="M 97.37 31.04 L 233.92 31.27" />
+    <path
+       id="path50"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="#6881b3"
+       d="M 92.12 31.04 L 99.12 27.55 L 97.37 31.04 L 99.11 34.55 Z" />
+    <path
+       id="path52"
+       pointer-events="none"
+       stroke-miterlimit="10"
+       stroke="#6881b3"
+       fill="#6881b3"
+       d="M 239.17 31.28 L 232.16 34.77 L 233.92 31.27 L 232.17 27.77 Z" />
+    <g
+       id="g58"
+       transform="translate(126.5,21.5)" />
+    <g
+       style="fill:#6881b3;fill-opacity:1"
+       id="g10-1"
+       transform="translate(134.73604,3.2320632)">
+      <text
+         x="30.94216"
+         y="37"
+         font-size="14px"
+         font-weight="bold"
+         id="text6-3"
+         style="font-weight:bold;font-size:14px;font-family:Helvetica;text-anchor:middle;fill:#6881b3;fill-opacity:1">
+        <tspan
+           id="tspan4640"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica">SSH/SSHFS</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
