@@ -5,7 +5,7 @@ title: An alternative approach to SSHFS on Windows
 
 File sharing on Windows typically leverages the [SMB](https://en.wikipedia.org/wiki/Server_Message_Block) protocol. While this *is* reliable, there are cases where [SSHFS](https://en.wikipedia.org/wiki/SSHFS) is preferable, most notably when interacting with *nix servers that have SSH access but don't have [SAMBA](https://en.wikipedia.org/wiki/Samba_(software)).
 
-![sshfs]({{ site.baseurl }}public/img/2017-10-16-sshfs.png)
+![sshfs]({{ "/" | relative_url }}public/img/2017-10-16-sshfs.png)
 
 While there are options for running SSHFS natively on Windows, I've often found it unreliable; instead I'll use a Linux VM as an intermediary to establish the SSHFS mount, and expose it to Windows as a SMB file share.
 
@@ -20,7 +20,7 @@ Direct SSHFS mounting under Windows is possible through [Dokany](https://github.
 ## Prequisites
 For this method, you'll need a virtual machine running Linux with SAMBA installed. I'll be using VirtualBox with Ubuntu 16.04 as my base. I've also configured a host-only adapter that allows access to the VM's SMB file shares from the host machine:
 
-![vbox-network]({{ site.baseurl }}public/img/2017-10-16-vbox-network.png)
+![vbox-network]({{ "/" | relative_url }}public/img/2017-10-16-vbox-network.png)
 
 In my case, the adapter appeared in the guest as `enp0s8`. From `ifconfig`, the address was `192.168.56.102` (typically it's `192.168.56.101` if you only have one VM); if SAMBA has been set up correctly, then it should be accessible from Windows via e.g. `\\192.168.56.102`.
 

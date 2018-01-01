@@ -5,7 +5,7 @@ title: Using a Raspberry Pi as a Print Server for the HL-2140
 
 One of the things you begin to truly appreciate is the convenience of a networked printer. When our last one stopped working due to a drum failure, we were left with a single, USB-only Brother HL-2140 laser printer. And while it certainly worked, being able to print only from one computer was a real pain in the ass!
 
-![cups-rpi]({{ site.baseurl }}public/img/2016-12-27-cups-rpi.png)
+![cups-rpi]({{ "/" | relative_url }}public/img/2016-12-27-cups-rpi.png)
 
 With a spare Raspberry Pi lying around yet again, it was time to fix that. The end result was a fast, AirPlay compatible, on-demand print server, with Windows clients connecting using LPR and *nix clients via IPP.
 
@@ -162,19 +162,19 @@ At this point, we will be installing a *minimal* CUPS server installation.
 
 5. Browse to `http://your-pi-ip:631`, then go to `Administration -> Add Printer`. If asked to, click on the link to upgrade to admin control - use your username and password for the account you created with the `lpadmin` group.
 
-   ![cups1]({{ site.baseurl }}public/img/2016-12-27-cups1.png)
+   ![cups1]({{ "/" | relative_url }}public/img/2016-12-27-cups1.png)
 
 6. From the `Add Printer` page, select the printer that you wish to add.
 
-   ![cups2]({{ site.baseurl }}public/img/2016-12-27-cups2.png)
+   ![cups2]({{ "/" | relative_url }}public/img/2016-12-27-cups2.png)
 
 7. In the next page, select a name for the printer - this will be the name of this printer's queue, so I recommend choosing a simple name, like `hl2140`. Ensure the 'Share This Printer' option is checked.
 
-   ![cups3]({{ site.baseurl }}public/img/2016-12-27-cups3.png)
+   ![cups3]({{ "/" | relative_url }}public/img/2016-12-27-cups3.png)
 
 8. On the next page, you must provide a PPD file for your printer. Since we chose a minimal install, the list of pre-provided drivers is small. For example, [here](http://www.openprinting.org/printer/Brother/Brother-HL-2140) is the link to the OpenPrinting page for the HL-2140. On that site, click on `directly download PPD`. On the CUPS page, click on `Browse` and select the downloaded PPD file. Click `Add Printer` to complete the process. Note that the PPD file is separate to the printer driver (such as `printer-driver-hpijs`).
 
-   ![cups4]({{ site.baseurl }}public/img/2016-12-27-cups4.png)
+   ![cups4]({{ "/" | relative_url }}public/img/2016-12-27-cups4.png)
 
 6. To enable LPR support for Windows, we need to install the inet daemon:
 
@@ -213,7 +213,7 @@ At this point, the RPi is mostly configured. Try adding and using the printer fr
 6. Set the protocol as `LPR`. Set the queue name to the name that you called the printer in CUPS. In this case, `hl2140`.
 7. Check the option labelled `LPR Byte Counting Enabled`. Leave `SNMP Status Enabled` unchecked. Click Next.
 
-   ![win-port-cfg]({{ site.baseurl }}public/img/2016-12-27-win-port-cfg.png)
+   ![win-port-cfg]({{ "/" | relative_url }}public/img/2016-12-27-win-port-cfg.png)
 
 8. Either select the appropriate driver from the list, or click on `Have Disk` and point it to the driver to use. **IMPORTANT FOR HL-2140** - it is actually better to use the HL-2150N driver instead of the HL-2140 driver. This is because the HL-2150N driver allows you to print while offline, unlike the HL-2140 driver, which just discards the document.
 9. Follow the remaining prompts and print a test page.
@@ -269,7 +269,7 @@ Given that I didn't really want to touch the mains side electronics, I had to fi
 
 Unfortunately, I also forgot to take photographs while doing this, but luckily it's not too hard to find the [service manual](https://www.google.com/search?q=hl-2140+service+manual+filetype%3Apdf). The mainboard is on the left side of the printer, as shown below:
 
-![hl2140]({{ site.baseurl }}public/img/2016-12-27-hl2140.png)
+![hl2140]({{ "/" | relative_url }}public/img/2016-12-27-hl2140.png)
 
 The connector highlighted in red is where I tapped off the 5V power supply. From the service manual, the +5V pin is the 2<sup>nd</sup> pin from the right, with GND being the 3<sup>rd</sup> pin from the right. It's best to confirm this with a multimeter.
 
@@ -277,7 +277,7 @@ Also note **the high-voltage power supply (HVPS)** that I have highlighted in re
 
 To connect this up to the RPi, I had a spare USB extension lead like this:
 
-![usb]({{ site.baseurl }}public/img/2016-12-27-usb.jpg)
+![usb]({{ "/" | relative_url }}public/img/2016-12-27-usb.jpg)
 
 This was actually perfect, because I could fit one of those ports into the existing housing fairly easily. I just had to drill out the backplate that also held the existing USB port. With some care, you can drill the holes for the screw terminals, so that you can secure the port to the backplate. I then cut off the original connector and the data wires, leaving me with only the +5V and GND lines. I then just tinned those lines and stuffed them into the existing connector.
 

@@ -30,7 +30,7 @@ author:
   name:           'Jeremy Tan'
   url:            https://github.com/jtanx
 
-plugins:          [jekyll-paginate,jekyll-gist,jemoji]
+plugins:          [jekyll-paginate,jekyll-gist,jekyll-github-metadata,jemoji]
 paginate:         5
 excerpt_separator: <!--more-->
 
