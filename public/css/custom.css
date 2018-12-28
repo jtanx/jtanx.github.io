@@ -8,6 +8,11 @@ img {
     border-radius: 0 !important;
 }
 
+video {
+    margin: 0 auto 1rem;
+    display: block;
+}
+
 pre.highlight, td.code pre {
     white-space: pre;
     overflow-x: auto;
