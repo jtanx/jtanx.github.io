@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 67.733331 67.733331"
+   height="256"
+   width="256">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-229.26668)"
+     id="layer1">
+    <g
+       id="text4495"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.95350456px;line-height:1.25;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#b4b4b4;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       aria-label="K">
+      <path
+         id="path4499"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:67.81401825px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';stroke:#b4b4b4;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 12.144987,283.06695 5.397307,-0.92714 v -37.97982 l -5.397307,-0.92715 v -4.20526 h 17.31774 v 4.20526 l -5.397307,0.92715 v 16.19192 h 4.99996 l 13.476711,-16.6555 -3.609242,-0.46357 v -4.20526 h 15.297889 v 4.20526 l -4.536387,0.82781 -14.73498,18.278 16.092585,19.9005 4.536387,0.8278 v 4.17216 H 39.760657 v -4.17216 l 3.675467,-0.46357 -13.741611,-17.11906 H 24.06542 v 16.65549 l 5.397307,0.92714 v 4.17216 h -17.31774 z" />
+    </g>
+    <text
+       id="text4594"
+       y="237.58324"
+       x="-466.2706"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve" />
+  </g>
+</svg>
